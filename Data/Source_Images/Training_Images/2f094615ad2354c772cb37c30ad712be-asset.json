@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "2f094615ad2354c772cb37c30ad712be",
+        "name": "Screenshot%20(71).png",
+        "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(71).png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "1YRwtnC-G",
+            "type": "RECTANGLE",
+            "tags": [
+                "hard_flesh"
+            ],
+            "boundingBox": {
+                "height": 43.2,
+                "width": 59.02153379803187,
+                "left": 1198.7854015346766,
+                "top": 265.85999450683596
+            },
+            "points": [
+                {
+                    "x": 1198.7854015346766,
+                    "y": 265.85999450683596
+                },
+                {
+                    "x": 1257.8069353327085,
+                    "y": 265.85999450683596
+                },
+                {
+                    "x": 1257.8069353327085,
+                    "y": 309.05999450683595
+                },
+                {
+                    "x": 1198.7854015346766,
+                    "y": 309.05999450683595
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

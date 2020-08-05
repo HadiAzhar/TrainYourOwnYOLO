@@ -3,7 +3,7 @@
 # To download houses weights run
 # python Download_Weights.py 1aPCwYXFAOmklmNMLMh81Yduw5UrbHqkN Houses/trained_weights_final.h5
 
-# To download openeings weights run
+# To download openings weights run
 # python Download_Weights.py 1FbvHzQWCjucXPbTbI4S1MnBLkAi58Mxv Openings/trained_weights_final.h5
 
 import requests

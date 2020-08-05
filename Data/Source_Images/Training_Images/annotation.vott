@@ -1,0 +1,771 @@
+{
+    "name": "annotation",
+    "securityToken": "annotation Token",
+    "sourceConnection": {
+        "name": "images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2ZkNmE1MDUwOTYwMTlhM2UyZTgyZDIzZmUyYTFmZDFiOTgwYTZjMTkxODExZWYyNGY1ODlmOWQ0YjIxOGE5OTQwN2IyMWI0NmVkYzE0OTc5ZmFlMGM1ODZlMmIzOTdlMWE0ZmNmYjkxNzRjM2E1MTVhZGE5ZTBmOTU3NjYxNTUyOTQzZDFiMDE2ZGZkZTU2ZmVlYTUyOWNmYmIwODhkODZmY2M0MjcwNmI0YTI1OTY1NzhiMTJiMjIyZjI3NDk5NWVkNDE0ZmI3ZDQ0ZGVkNzI4ODMxOTM1NDgxZTI0ZGViZDAxNjRhOGI5MWQwZmE0MjI1OTMzZjA2M2RkZGRhMSIsIml2IjoiY2NjMTZmMTFiYzE1OTc5YWEzMmZkM2ViYWZiYjc0MTE1MzA4MjhkNDVmN2I5M2RkIn0="
+        },
+        "id": "FMX9CtuQu"
+    },
+    "targetConnection": {
+        "name": "images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTI4ODk5YTU0M2Q3NzIzMDYwNjkyZTc2NGIzN2U3NjM4NTFlN2NhZjJjOGEyZWRkOTRjYTNjNzE3ZWFjMjUzMTRhYjA4MzA5ZjlhNzhhZWM3NjgxNzM0YWZiMmJhZTk1MmYxOTUyNDVjZThhN2MzMDFjZDIwODVjYWNmZWJmNjg5Mjc3YjlkZWU1ZjM4MjkxZjQwNjJjNTFkMWQzNWZkYzkwZDBhMTg4YThmZTUzMjU1MGE3YzBiN2I5MWRjMWNiMmYxNGZlNDZjOTcxYjE1Y2RjN2IwOWQ5ZWYxYzBkZGQxYTA3MjYyNzVmNDkwYTExYTdlOWE5MWVkNGFlODNkMiIsIml2IjoiMmIwMDRiMzliNzIyOWNiNjMxOWEzZDMyNmZmOWVhOTg2ZWU2ZGZjNDM4OTE5ZTRkIn0="
+        },
+        "id": "FMX9CtuQu"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "foreign_matter",
+            "color": "#5db300"
+        },
+        {
+            "name": "hard_flesh",
+            "color": "#e81123"
+        }
+    ],
+    "id": "X8f9SRWzu",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjA2MjhmZjZlODYxMWMzNWFlMDAxNmRhMjJkYmY3MGJmN2I1YzAzZTIwMjY2YTFhMzY4ZWU2MDllNGU2MTk5MGUwNGI1NjA5MDlhOTQzZTYxNWQyN2VkMmFjOThlMTc5IiwiaXYiOiI5NjQxOWQzNWExM2QyZDYxYzNiYWQ4ZWFjZTQ5Yjc4NDRjZmNmMmJhYzVhNTQ3ZDkifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "9c7dee8189c7f4b6647ede97f5c0c8d4",
+    "assets": {
+        "5aba2d89e548fb70e989a0b23e54b8c9": {
+            "format": "png",
+            "id": "5aba2d89e548fb70e989a0b23e54b8c9",
+            "name": "Screenshot(13).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(13).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "5fa118263724f6a6a642b88eda2c07b1": {
+            "format": "png",
+            "id": "5fa118263724f6a6a642b88eda2c07b1",
+            "name": "Screenshot(14).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(14).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "8790e9d76bfd93fb1d54cdf7eb90c33d": {
+            "format": "png",
+            "id": "8790e9d76bfd93fb1d54cdf7eb90c33d",
+            "name": "Screenshot(15).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(15).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e9bfe831a154607612013dd6984e53a": {
+            "format": "png",
+            "id": "4e9bfe831a154607612013dd6984e53a",
+            "name": "Screenshot(16).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(16).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f19b8ed60a4b32a4b90f4c1c4ce8437d": {
+            "format": "png",
+            "id": "f19b8ed60a4b32a4b90f4c1c4ce8437d",
+            "name": "Screenshot(17).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(17).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30ec5d570028d5d2acb76dbfe08b52fb": {
+            "format": "png",
+            "id": "30ec5d570028d5d2acb76dbfe08b52fb",
+            "name": "Screenshot(18).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(18).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "23d7a1942ee6b0ef852a27b4cb58866a": {
+            "format": "png",
+            "id": "23d7a1942ee6b0ef852a27b4cb58866a",
+            "name": "Screenshot(19).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(19).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "630870b805dda20a565879cf806e493b": {
+            "format": "png",
+            "id": "630870b805dda20a565879cf806e493b",
+            "name": "Screenshot(20).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(20).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "594ca768acc85cd4283dab8866ac1370": {
+            "format": "png",
+            "id": "594ca768acc85cd4283dab8866ac1370",
+            "name": "Screenshot(21).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(21).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88d288df2f8bfa9866791436215a0fb1": {
+            "format": "png",
+            "id": "88d288df2f8bfa9866791436215a0fb1",
+            "name": "Screenshot(22).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(22).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "239e46dc9dc89462df0c94df07abdef9": {
+            "format": "png",
+            "id": "239e46dc9dc89462df0c94df07abdef9",
+            "name": "Screenshot(23).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(23).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f94bc955b13daf6e97aa4974a5834f3": {
+            "format": "png",
+            "id": "3f94bc955b13daf6e97aa4974a5834f3",
+            "name": "Screenshot(24).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(24).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c43f8ca905463903fc1934058bacfd6": {
+            "format": "png",
+            "id": "1c43f8ca905463903fc1934058bacfd6",
+            "name": "Screenshot(25).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(25).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67c10c44be1273e234be63869f44f4d7": {
+            "format": "png",
+            "id": "67c10c44be1273e234be63869f44f4d7",
+            "name": "Screenshot(26).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(26).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c28cc99992b350d1b466cf2688b20f7": {
+            "format": "png",
+            "id": "5c28cc99992b350d1b466cf2688b20f7",
+            "name": "Screenshot(27).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(27).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2789fc375936870d1de53e3e8e5cbc88": {
+            "format": "png",
+            "id": "2789fc375936870d1de53e3e8e5cbc88",
+            "name": "Screenshot(28).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(28).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd1654168a8dbbe6ae38c3ccc3041783": {
+            "format": "png",
+            "id": "cd1654168a8dbbe6ae38c3ccc3041783",
+            "name": "Screenshot(29).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(29).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21b3465587bf8411d4938b92b7031b76": {
+            "format": "png",
+            "id": "21b3465587bf8411d4938b92b7031b76",
+            "name": "Screenshot(30).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(30).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a9bf90cffbf3be14005aa7d7571bf0d": {
+            "format": "png",
+            "id": "2a9bf90cffbf3be14005aa7d7571bf0d",
+            "name": "Screenshot(31).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(31).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "608689740d3e82bf935481197ff7f10c": {
+            "format": "png",
+            "id": "608689740d3e82bf935481197ff7f10c",
+            "name": "Screenshot(32).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(32).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d587933672fd7f4bf5c2a6f5d07e587f": {
+            "format": "png",
+            "id": "d587933672fd7f4bf5c2a6f5d07e587f",
+            "name": "Screenshot(33).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(33).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b54a2eee513b515f58590f03e83a9cab": {
+            "format": "png",
+            "id": "b54a2eee513b515f58590f03e83a9cab",
+            "name": "Screenshot(34).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(34).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8d00873c9ec4e12557af1dff8c1cb63": {
+            "format": "png",
+            "id": "f8d00873c9ec4e12557af1dff8c1cb63",
+            "name": "Screenshot(35).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(35).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2d1c2cc9350595a407f98079b4fe694": {
+            "format": "png",
+            "id": "e2d1c2cc9350595a407f98079b4fe694",
+            "name": "Screenshot(36).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(36).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1433423525193292d4dd9430533259a0": {
+            "format": "png",
+            "id": "1433423525193292d4dd9430533259a0",
+            "name": "Screenshot(37).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(37).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "932325ccf7cc95173e0240b67b1fb55f": {
+            "format": "png",
+            "id": "932325ccf7cc95173e0240b67b1fb55f",
+            "name": "Screenshot(38).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(38).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a7289f4e96db342e56fb6fcf25da2cd": {
+            "format": "png",
+            "id": "9a7289f4e96db342e56fb6fcf25da2cd",
+            "name": "Screenshot(39).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(39).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "314202e51b0cafa79e7974f94e003768": {
+            "format": "png",
+            "id": "314202e51b0cafa79e7974f94e003768",
+            "name": "Screenshot(40).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(40).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "498a3e7d28409708567d959ac8ae9f29": {
+            "format": "png",
+            "id": "498a3e7d28409708567d959ac8ae9f29",
+            "name": "Screenshot(41).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(41).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b0522aeb4801dc7ae36810068f2f833": {
+            "format": "png",
+            "id": "6b0522aeb4801dc7ae36810068f2f833",
+            "name": "Screenshot(42).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(42).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec93f3fc5103ed9e9966c594654b9dcd": {
+            "format": "png",
+            "id": "ec93f3fc5103ed9e9966c594654b9dcd",
+            "name": "Screenshot(43).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(43).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04f6f329f37728e554f045792aa67649": {
+            "format": "png",
+            "id": "04f6f329f37728e554f045792aa67649",
+            "name": "Screenshot(44).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(44).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e34ce5a44d86a6890efd26124107d1ed": {
+            "format": "png",
+            "id": "e34ce5a44d86a6890efd26124107d1ed",
+            "name": "Screenshot(45).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(45).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ea4d883d1cd4b48f1a05efff5e56751": {
+            "format": "png",
+            "id": "6ea4d883d1cd4b48f1a05efff5e56751",
+            "name": "Screenshot(46).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(46).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3aed07193c1566c93a6c5290920d1dc": {
+            "format": "png",
+            "id": "e3aed07193c1566c93a6c5290920d1dc",
+            "name": "Screenshot(47).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(47).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "26dd44c6e6888aad392a947b59eb994d": {
+            "format": "png",
+            "id": "26dd44c6e6888aad392a947b59eb994d",
+            "name": "Screenshot(48).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(48).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d8bdaae39ddb06f0b510c5248eb0fd0": {
+            "format": "png",
+            "id": "4d8bdaae39ddb06f0b510c5248eb0fd0",
+            "name": "Screenshot(49).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(49).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d01a1f41102c598c559ff0fb453e7bd1": {
+            "format": "png",
+            "id": "d01a1f41102c598c559ff0fb453e7bd1",
+            "name": "Screenshot(50).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(50).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5f10fc3ba316a342721de5d4acf7e662": {
+            "format": "png",
+            "id": "5f10fc3ba316a342721de5d4acf7e662",
+            "name": "Screenshot(51).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(51).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dac9617414023fdaffb34f0a9ce0d33c": {
+            "format": "png",
+            "id": "dac9617414023fdaffb34f0a9ce0d33c",
+            "name": "Screenshot(52).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(52).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2146e01eba48f9aa28dbc0022142bf41": {
+            "format": "png",
+            "id": "2146e01eba48f9aa28dbc0022142bf41",
+            "name": "Screenshot(53).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(53).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ad068b216502dbdcda0f8ffa7d4a064": {
+            "format": "png",
+            "id": "4ad068b216502dbdcda0f8ffa7d4a064",
+            "name": "Screenshot(54).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(54).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1440c38083407869596588cc95379c4f": {
+            "format": "png",
+            "id": "1440c38083407869596588cc95379c4f",
+            "name": "Screenshot(55).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(55).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1355fea26042fef445319ccaebe7ec18": {
+            "format": "png",
+            "id": "1355fea26042fef445319ccaebe7ec18",
+            "name": "Screenshot(56).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(56).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b6ca2dd91adf593627d597da8e1fd61f": {
+            "format": "png",
+            "id": "b6ca2dd91adf593627d597da8e1fd61f",
+            "name": "Screenshot(57).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(57).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff66fe07086f535ce04623c1b6d339b8": {
+            "format": "png",
+            "id": "ff66fe07086f535ce04623c1b6d339b8",
+            "name": "Screenshot(58).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(58).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0454ffc951883770f6ed25fd311aaad4": {
+            "format": "png",
+            "id": "0454ffc951883770f6ed25fd311aaad4",
+            "name": "Screenshot(59).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(59).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bd44699e84f8287a1cdbd28ca0f21cf": {
+            "format": "png",
+            "id": "5bd44699e84f8287a1cdbd28ca0f21cf",
+            "name": "Screenshot(60).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(60).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73aa4a00abd95caec77e04979c44216f": {
+            "format": "png",
+            "id": "73aa4a00abd95caec77e04979c44216f",
+            "name": "Screenshot(61).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(61).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1cc377dbb60f246c10e36f6adf1a126": {
+            "format": "png",
+            "id": "c1cc377dbb60f246c10e36f6adf1a126",
+            "name": "Screenshot(62).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(62).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "036a08a97235239219d99c23c575e6c0": {
+            "format": "png",
+            "id": "036a08a97235239219d99c23c575e6c0",
+            "name": "Screenshot(63).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(63).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "359caeeb1170406b09ba46063e6124b8": {
+            "format": "png",
+            "id": "359caeeb1170406b09ba46063e6124b8",
+            "name": "Screenshot(64).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(64).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e07c194b4349457c89dc34b5aff60aa7": {
+            "format": "png",
+            "id": "e07c194b4349457c89dc34b5aff60aa7",
+            "name": "Screenshot(65).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(65).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "144806a5935ea266eaa85b5c25ed258c": {
+            "format": "png",
+            "id": "144806a5935ea266eaa85b5c25ed258c",
+            "name": "Screenshot(66).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(66).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3554f89c13b16e3ca01f518abfb67d78": {
+            "format": "png",
+            "id": "3554f89c13b16e3ca01f518abfb67d78",
+            "name": "Screenshot(67).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(67).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "338fd9da4e1023716512b90ef19a18da": {
+            "format": "png",
+            "id": "338fd9da4e1023716512b90ef19a18da",
+            "name": "Screenshot(68).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(68).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a238d896360ec9bd2c95cf5e22cc8f5": {
+            "format": "png",
+            "id": "2a238d896360ec9bd2c95cf5e22cc8f5",
+            "name": "Screenshot(69).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(69).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f094615ad2354c772cb37c30ad712be": {
+            "format": "png",
+            "id": "2f094615ad2354c772cb37c30ad712be",
+            "name": "Screenshot(71).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(71).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f41caa94db7a80c5ae0bd354eed31646": {
+            "format": "png",
+            "id": "f41caa94db7a80c5ae0bd354eed31646",
+            "name": "Screenshot(72).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(72).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c7dee8189c7f4b6647ede97f5c0c8d4": {
+            "format": "png",
+            "id": "9c7dee8189c7f4b6647ede97f5c0c8d4",
+            "name": "Screenshot(73).png",
+            "path": "file:C:/Users/hadiazhar/Documents/GitHub/TrainYourOwnYOLO/Data/Source_Images/Training_images/Screenshot(73).png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

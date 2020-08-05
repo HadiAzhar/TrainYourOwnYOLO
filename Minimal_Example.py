@@ -44,7 +44,7 @@ if not os.path.isfile(os.path.join(model_folder, "trained_weights_final.h5")):
 
 # Now run the cat face detector
 detector_script = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "3_Inference", "Detector.py"
+    os.path.dirname(os.path.abspath(__file__)), "Inference", "Detector.py"
 )
 
 
@@ -52,7 +52,7 @@ result_file = os.path.join(output_folder, "Detection_Results.csv")
 model_weights = os.path.join(model_folder, "trained_weights_final.h5")
 classes_file = os.path.join(model_folder, "data_classes.txt")
 anchors = os.path.join(
-    root_folder, "2_Training", "src", "keras_yolo3", "model_data", "yolo_anchors.txt"
+    root_folder, "training", "src", "keras_yolo3", "model_data", "yolo_anchors.txt"
 )
 
 arglist = [

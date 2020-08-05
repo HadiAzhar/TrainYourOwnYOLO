@@ -6,21 +6,21 @@ This repo let's you train a custom image detector using the state-of-the-art [YO
 
 To build and test your YOLO object detection algorithm follow the below steps:
 
- 1. [Image Annotation](/1_Image_Annotation/)
+ 1. [Image Annotation](/Image_Annotation/)
 	 - Install Microsoft's Visual Object Tagging Tool (VoTT)
 	 - Annotate images
- 2. [Training](/2_Training/)
+ 2. [Training](//)
  	- Download pre-trained weights
  	- Train your custom YOLO model on annotated images 
- 3. [Inference](/3_Inference/)
+ 3. [Inference](/Inference/)
  	- Detect objects in new images and videos
 
 ## Repo structure
-+ [`1_Image_Annotation`](/1_Image_Annotation/): Scripts and instructions on annotating images
-+ [`2_Training`](/2_Training/): Scripts and instructions on training your YOLOv3 model
-+ [`3_Inference`](/3_Inference/): Scripts and instructions on testing your trained YOLO model on new images and videos
++ [`1_Image_Annotation`](/Image_Annotation/): Scripts and instructions on annotating images
++ [`2_Training`](//): Scripts and instructions on training your YOLOv3 model
++ [`3_Inference`](/Inference/): Scripts and instructions on testing your trained YOLO model on new images and videos
 + [`Data`](/Data/): Input Data, Output Data, Model Weights and Results
-+ [`Utils`](/Utils/): Utility scripts used by main scripts
++ [`Utils`](//): Utility scripts used by main scripts
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ The only hard requirement is a running version of python 3.6 or 3.7. To install 
 
 and follow the installation instructions. Note that this repo has only been tested with python 3.6 and python 3.7 thus it is recommened to use either `python3.6` or `python3.7`.
 
-To speed up training, it is recommended to use a **GPU with CUDA** support. For example on [AWS](/2_Training/AWS/) you can use a `p2.xlarge` instance (Tesla K80 GPU with 12GB memory). Inference is very fast even on a CPU with approximately ~2 images per second. 
+To speed up training, it is recommended to use a **GPU with CUDA** support. For example on [AWS](//AWS/) you can use a `p2.xlarge` instance (Tesla K80 GPU with 12GB memory). Inference is very fast even on a CPU with approximately ~2 images per second. 
 
 
 ### Installation
@@ -61,7 +61,7 @@ Create Virtual **(Windows)** Environment:
 py -m venv env
 .\env\Scripts\activate
 ```
-![PowerShell](/Utils/Screenshots/PowerShell.png)
+![PowerShell](//Screenshots/PowerShell.png)
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
 #### 2 Install Required Packages [Windows, Mac or Linux]
@@ -88,9 +88,9 @@ The outputs are saved in [`TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detect
 ## Full Start (Training and Inference)
 
 To train your own custom YOLO object detector please follow the instructions detailed in the three numbered subfolders of this repo:
-- [`1_Image_Annotation`](/1_Image_Annotation/),
-- [`2_Training`](/2_Training/) and
-- [`3_Inference`](/3_Inference/).
+- [`1_Image_Annotation`](/Image_Annotation/),
+- [`2_Training`](//) and
+- [`3_Inference`](/Inference/).
  
 **To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
 
@@ -144,7 +144,7 @@ Many thanks to [Niklas Wilson](https://github.com/NiklasWilson) for contributing
 ## Need more help? File an Issue!
 If you would like to file an issue, please use the provided issue template and make sure to complete all fields. This makes it easier to reproduce the issue for someone trying to help you. 
 
-![Issue](/Utils/Screenshots/Issue.gif)
+![Issue](//Screenshots/Issue.gif)
 
 Issues without a completed issue template will be closed after 7 days. 
 
@@ -153,7 +153,7 @@ Issues without a completed issue template will be closed after 7 days.
 - ⭐ **star** this repo to get notifications on future improvements and
 - 🍴 **fork** this repo if you like to use it as part of your own project.
 
-![CatVideo](/Utils/Screenshots/CatVideo.gif)
+![CatVideo](//Screenshots/CatVideo.gif)
 
 ## Licensing 
 This work is licensed under a [Creative Commons Attribution 4.0 International
