@@ -243,7 +243,8 @@ def detect_video(yolo, video_path, output_path=""):
         # print("!!! TYPE:", type(output_path), type(video_FourCC), type(video_fps), type(video_size))
         out = cv2.VideoWriter(output_path, video_FourCC, video_fps, video_size)
     else:
-        out = cv2.VideoWriter(output_path, video_FourCC, video_fps, video_size)
+        out = cv2.VideoWriter(output_path + ".mp4", video_FourCC, video_fps, video_size)
+
     accum_time = 0
     curr_fps = 0
     fps = "FPS: ??"
@@ -279,7 +280,7 @@ def detect_video(yolo, video_path, output_path=""):
         if video_path == 0:
             #rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             #cv2.namedWindow("video/webcam", cv2.WINDOW_NORMAL)
-            cv2.imshow("webcam", result)
+            cv2.imshow("Webcam", result,)
         if isOutput:
             out.write(result[:, :, ::-1])
         if cv2.waitKey(1) & 0xFF == ord('q'):
